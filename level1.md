@@ -5,7 +5,7 @@ docker run -d --name mynginx -p 8000:80 nginx
 docker container rm name
 ```
 
-![text1]()
+![](https://github.com/Kinsomnia/data_picture/blob/main/level1.1.png)
 
 ```
 # 访问
@@ -19,7 +19,7 @@ exit
 curl localhost:8000
 ```
 
-![](C:\Users\86138\Pictures\Screenshots\屏幕截图_20221128_161735.png)
+![](https://github.com/Kinsomnia/data_picture/blob/main/level1.2.png)
 
 ```
 # 把容器重新打成新的镜像
@@ -28,7 +28,7 @@ docker commit mynginx mynginx:v1.0.0
 docker images
 ```
 
-![](C:\Users\86138\Pictures\Screenshots\屏幕截图_20221128_161922.png)
+![](https://github.com/Kinsomnia/data_picture/blob/main/level1.3.png)
 
 ```
 # 重跑我们刚才的镜像
@@ -38,4 +38,4 @@ curl localhost:8080
 curl localhost:8000
 ```
 
-![](C:\Users\86138\Pictures\Screenshots\屏幕截图_20221128_162223.png)
+![](https://github.com/Kinsomnia/data_picture/blob/main/level1.4.png)
