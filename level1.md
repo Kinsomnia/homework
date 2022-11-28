@@ -5,7 +5,7 @@ docker run -d --name mynginx -p 8000:80 nginx
 docker container rm name
 ```
 
-![tank1](C:\Users\86138\Pictures\Screenshots\屏幕截图_20221128_161707.png)
+![text1](C:\Users\86138\Pictures\Screenshots\屏幕截图_20221128_161707.png)
 
 ```
 # 访问
