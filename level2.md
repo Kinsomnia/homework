@@ -3,8 +3,8 @@ level1
 ```
 mkdir dockerfiles # 创建文件夹
 cd dockerfiles
-cat yuyulin.txt > index.html
 vim dockerfile # 编写dockerfile文件
+# COPY的文件最好和Dockerfile文件在同一目录下
 ```
 
 ![](https://github.com/Kinsomnia/data_picture/blob/main/level2.2.png)
