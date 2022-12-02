@@ -6,7 +6,7 @@ mkdir /docker-compose/yml01
 # 编写我们的yaml文件
 ```
 
-![](C:\Users\86138\Pictures\data\level3.0.png)
+![](https://github.com/Kinsomnia/data_picture/blob/main/level3.0.png)
 
 ```
 # 使用docker-compose编排我们刚刚写好的yml文件
@@ -19,7 +19,7 @@ cd data
 cat a.txt
 ```
 
-![](C:\Users\86138\Pictures\data\level3.1.png)
+![](https://github.com/Kinsomnia/data_picture/blob/main/level3.1.png)
 
 ```
 # 我们停止我们的容器再去本地看看我们的数据
@@ -28,9 +28,9 @@ cd /container_data/data2
 cat a.txt
 ```
 
-![](C:\Users\86138\Pictures\data\level3.2.png)
+![](https://github.com/Kinsomnia/data_picture/blob/main/level3.2.png)
 
-![](C:\Users\86138\Pictures\data\level3.3.png)
+![](https://github.com/Kinsomnia/data_picture/blob/main/level3.3.png)
 
 ```
 # 上传镜像到仓库
@@ -43,4 +43,4 @@ docker push kinsomnia/level3_test1
 docker push kinsomnia/level3_test2
 ```
 
-![](C:\Users\86138\Pictures\data\level3.4.png)
+![](https://github.com/Kinsomnia/data_picture/blob/main/level3.4.png)
